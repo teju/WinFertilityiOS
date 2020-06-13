@@ -11,27 +11,17 @@ import UIKit
 class FamilyBuildingViewController: UIViewController, customViewDelegate {
     
     
-    @IBOutlet weak var pwc_stack_view: UIStackView!
-    @IBOutlet weak var title_Lbl: UILabel!
     @IBOutlet weak var tabBar: UITabBar!
-    @IBOutlet weak var connectWithANurse_Lbl: UILabel!
-    @IBOutlet weak var InfoCenter_Lbl: UILabel!
-    @IBOutlet weak var fertilityTracker_Lbl: UILabel!
     @IBOutlet weak var benefits_Lbl: UILabel!
-    @IBOutlet weak var maleFactor_Lbl: UILabel!
     
-    @IBOutlet weak var winForHimStackView: UIStackView!
     @IBOutlet weak var understandBenefitsStackView: UIStackView!
     @IBOutlet weak var secondStackView: UIStackView!
     @IBOutlet weak var fertilityTrackerStackView: UIStackView!
     @IBOutlet weak var firststackVIew: UIStackView!
     @IBOutlet weak var informationCenterStackView: UIStackView!
-    @IBOutlet weak var connectWithNurseStackView: UIStackView!
     
     @IBOutlet weak var familyTitle_Lbl: UILabel!
     @IBOutlet weak var backBtnOutlet: UIButton!
-    @IBOutlet weak var winLogo: UIImageView!
-    @IBOutlet weak var fullStackView: UIStackView!
     @IBOutlet weak var pwcstackView: UIStackView!
     
     @IBOutlet weak var pwcstackview1: UIStackView!
@@ -41,12 +31,6 @@ class FamilyBuildingViewController: UIViewController, customViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.title_Lbl.forHomeScreenLabel()
-        self.connectWithANurse_Lbl.forHomeScreenMenuLabel()
-        self.InfoCenter_Lbl.forHomeScreenMenuLabel()
-        self.fertilityTracker_Lbl.forHomeScreenMenuLabel()
-        self.benefits_Lbl.forHomeScreenMenuLabel()
-        self.maleFactor_Lbl.forHomeScreenMenuLabel()
         customViews.customViewDelegates = self
         tabBar.selectedItem = tabBar.items?.first
         tabBar.delegate = self
@@ -55,16 +39,7 @@ class FamilyBuildingViewController: UIViewController, customViewDelegate {
 //        pwcstackview2.spacing = 20
         pwcstackView.isHidden = true
         if(LoadLoginData.contractIdentified == "PWC"){
-            fullStackView.isHidden = true
             pwcstackView.isHidden = false
-//            winForHimStackView.isHidden = true
-//            firststackVIew.addArrangedSubview(self.understandBenefitsStackView)
-//            firststackVIew.addArrangedSubview(self.connectWithNurseStackView)
-//            secondStackView.addArrangedSubview(self.fertilityTrackerStackView)
-//            secondStackView.addArrangedSubview(self.informationCenterStackView)
-//            firststackVIew.spacing = 20
-//            secondStackView.spacing = 20
-//            fullStackView.spacing = 20
         }
        
     }
@@ -72,7 +47,6 @@ class FamilyBuildingViewController: UIViewController, customViewDelegate {
         if(LoadLoginData.contractIdentified == "PWC"){
                    familyTitle_Lbl.isHidden = false
                    backBtnOutlet.isHidden = false
-                   winLogo.isHidden = true
                    presentIndex = "2"
                    self.tabBar.selectedItem = tabBar.items?[1]
                        self.tabBar.items![1].image = UIImage(named: "icon-toolbar-family-building")
@@ -87,14 +61,7 @@ class FamilyBuildingViewController: UIViewController, customViewDelegate {
                    presentIndex = "1"
                    self.tabBar.selectedItem = tabBar.items?[0]
                }
-        
-//        if(LoadLoginData.dadiProgram == "Yes"){
-//               winForHimStackView.isHidden = true
-//               secondStackView.addArrangedSubview(understandBenefitsStackView)
-//               secondStackView.addArrangedSubview(fertilityTrackerStackView)
-//            secondStackView.spacing = 20
-//            firststackVIew.spacing = 20
-//        }
+    
     }
     @IBAction func backBtnAction(_ sender: Any) {
         self.navigationController?.backToViewController(viewController: PwcViewController.self)
