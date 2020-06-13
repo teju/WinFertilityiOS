@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Win iOS.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>58B3803E0D9F566BAC1A1EAECABF0CEB04D380A8</string>
+				<key>dateExpires</key>
+				<string>18/02/21</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>58B3803E0D9F566BAC1A1EAECABF0CEB04D380A8</string>
+						<key>dateExpires</key>
+						<string>18/02/21</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>Alamofire.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>6CE6K2E39S</string>
+						<key>name</key>
+						<string>WINFERTILITY, INC.</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>58B3803E0D9F566BAC1A1EAECABF0CEB04D380A8</string>
+						<key>dateExpires</key>
+						<string>18/02/21</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>GoogleToolboxForMac.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>6CE6K2E39S</string>
+						<key>name</key>
+						<string>WINFERTILITY, INC.</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>58B3803E0D9F566BAC1A1EAECABF0CEB04D380A8</string>
+						<key>dateExpires</key>
+						<string>18/02/21</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>IQKeyboardManagerSwift.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>6CE6K2E39S</string>
+						<key>name</key>
+						<string>WINFERTILITY, INC.</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>58B3803E0D9F566BAC1A1EAECABF0CEB04D380A8</string>
+						<key>dateExpires</key>
+						<string>18/02/21</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>JTAppleCalendar.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>6CE6K2E39S</string>
+						<key>name</key>
+						<string>WINFERTILITY, INC.</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>58B3803E0D9F566BAC1A1EAECABF0CEB04D380A8</string>
+						<key>dateExpires</key>
+						<string>18/02/21</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>TwilioVideo.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>6CE6K2E39S</string>
+						<key>name</key>
+						<string>WINFERTILITY, INC.</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>58B3803E0D9F566BAC1A1EAECABF0CEB04D380A8</string>
+						<key>dateExpires</key>
+						<string>18/02/21</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>nanopb.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>6CE6K2E39S</string>
+						<key>name</key>
+						<string>WINFERTILITY, INC.</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>58B3803E0D9F566BAC1A1EAECABF0CEB04D380A8</string>
+						<key>dateExpires</key>
+						<string>18/02/21</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>protobuf.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>6CE6K2E39S</string>
+						<key>name</key>
+						<string>WINFERTILITY, INC.</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>6CE6K2E39S.com.eisplc.winfertility</string>
+				<key>aps-environment</key>
+				<string>production</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>6CE6K2E39S</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>WINFertility.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>b203d369-180f-4d6f-bfe4-46780aa19c9c</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: com.eisplc.winfertility</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>6CE6K2E39S</string>
+				<key>name</key>
+				<string>WINFERTILITY, INC.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

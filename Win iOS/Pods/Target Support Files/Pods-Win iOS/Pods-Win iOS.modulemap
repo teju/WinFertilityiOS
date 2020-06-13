@@ -1,0 +1,6 @@
+framework module Pods_Win_iOS {
+  umbrella header "Pods-Win iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

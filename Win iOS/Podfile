@@ -1,0 +1,28 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Win iOS' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+	pod 'Alamofire', '~> 5.0.0-rc.3'
+  pod 'JTAppleCalendar'
+  pod 'IQKeyboardManagerSwift'
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
+  pod 'TwilioVideo'
+  pod 'TwilioChatClient'
+  pod 'Firebase/Core', '4.0.4'
+  pod 'Firebase/Database', '4.0.4'
+  pod 'Firebase/Messaging', '4.0.4'
+  pod 'FirebaseInstanceID', '2.0.0'
+  # Pods for Win iOS
+  target 'Win iOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Win iOSUITests' do
+    # Pods for testing
+  end
+
+end
