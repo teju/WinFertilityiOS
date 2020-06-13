@@ -65,6 +65,7 @@ class ChildCareSupportViewController: UIViewController, customViewDelegate, WKNa
     }
     
     @IBAction func backBtnClick(_ sender: Any) {
+        print("pwcvalidator \(pwcvalidator)")
         if(pwcvalidator == "familybuildsupport"){
             self.navigationController?.popViewController(animated: true)
         }else if(pwcvalidator == "cantactUs"){
@@ -123,7 +124,7 @@ class ChildCareSupportViewController: UIViewController, customViewDelegate, WKNa
         }else if (item.tag == 2){
             if(presentIndex != "2"){
                 if (UserDefaults.standard.bool(forKey: UserDefaultsStored.UserLogedInOrNot)){
-                    let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "HomeViewController") as? HomeViewController
+                    let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "FamilyBuildingViewController") as? FamilyBuildingViewController
                     self.navigationController?.pushViewController(vc!, animated: true)
                 }else{
                     self.customViews.loadingData(titleLabl: "", subTitleLabel: AppConstants.AlertMessage.notRegistered.rawValue, cancelBtnTitle: "Cancel", okayBtnTitle: "Okay")

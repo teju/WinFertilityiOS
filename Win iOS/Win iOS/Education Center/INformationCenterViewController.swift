@@ -120,7 +120,7 @@ class INformationCenterViewController: UIViewController, UITableViewDelegate, UI
             if(presentIndex != "2"){
                 if (UserDefaults.standard.bool(forKey: UserDefaultsStored.UserLogedInOrNot)){
                     if(LoadLoginData.contractIdentified == "PWC"){
-                        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "HomeViewController") as? HomeViewController
+                        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "FamilyBuildingViewController") as? FamilyBuildingViewController
                         self.navigationController?.pushViewController(vc!, animated: true)
                     }else{
                         let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "NurseConnectViewController") as? NurseConnectViewController

@@ -19,7 +19,8 @@ class FertilityTrackerViewController: UIViewController {
     @IBOutlet weak var title_Lbl: UILabel!
     @IBOutlet weak var monthTitle_Lbl: UILabel!
     @IBOutlet weak var calenderView: JTACMonthView!
-    
+    var isFromFamily = false
+
     var calNextCycleDataCollection:[String]? = []
     var calReminderDataCollection:[String]? = []
     var calCycleDataCollection:[String]? = []
@@ -83,7 +84,11 @@ class FertilityTrackerViewController: UIViewController {
         self.calenderView.reloadData()
     }
     @IBAction func backBtnClick(_ sender: Any) {
-        self.navigationController?.backToViewController(viewController: HomeViewController.self)
+        if(isFromFamily) {
+            self.navigationController?.popViewController(animated: true)
+        } else {
+            self.navigationController?.backToViewController(viewController: HomeViewController.self)
+        }
     }
     @IBAction func previousMonthBtnClick(_ sender: Any) {
         self.calenderView.scrollToSegment(.previous)

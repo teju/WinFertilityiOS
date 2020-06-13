@@ -1283,7 +1283,7 @@ help you today?</string>
                                                         <rect key="frame" x="141" y="0.0" width="131" height="131"/>
                                                         <state key="normal" image="icon-home-info1"/>
                                                         <connections>
-                                                            <segue destination="fPQ-lg-Hqx" kind="push" id="Zdq-Dp-qYt"/>
+                                                            <segue destination="fPQ-lg-Hqx" kind="push" id="Xfd-Ys-yai"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -1349,7 +1349,7 @@ help you today?</string>
                                                                 <state key="normal" backgroundImage="icon-home-info"/>
                                                                 <connections>
                                                                     <action selector="informationCenterBtnClick:" destination="1Cu-Bp-ohY" eventType="touchUpInside" id="4Kc-ac-7Zd"/>
-                                                                    <segue destination="fPQ-lg-Hqx" kind="push" id="A5S-NL-YR5"/>
+                                                                    <segue destination="fPQ-lg-Hqx" kind="push" id="vot-1G-mK1"/>
                                                                 </connections>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kES-0a-sHw">
@@ -6925,7 +6925,7 @@ BENEFITS</string>
             <objects>
                 <viewController storyboardIdentifier="INformationCenterViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fPQ-lg-Hqx" customClass="INformationCenterViewController" customModule="WINFertility" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bdb-3M-Mzh">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uEa-qH-Xpo">
@@ -6949,7 +6949,7 @@ BENEFITS</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="297-cl-dhY">
-                                <rect key="frame" x="0.0" y="78" width="320" height="441"/>
+                                <rect key="frame" x="0.0" y="78" width="320" height="421"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <color key="separatorColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
@@ -7007,7 +7007,7 @@ BENEFITS</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <tabBar contentMode="scaleToFill" translucent="NO" itemPositioning="fill" translatesAutoresizingMaskIntoConstraints="NO" id="lsJ-aB-LG2">
-                                <rect key="frame" x="0.0" y="519" width="320" height="49"/>
+                                <rect key="frame" x="0.0" y="499" width="320" height="49"/>
                                 <color key="backgroundColor" red="0.086274509799999996" green="0.15686274510000001" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="49" id="RWt-Yj-tck"/>
@@ -9141,6 +9141,9 @@ CONNECT WITH A NURSE?</string>
                                                             <constraint firstAttribute="width" secondItem="QTZ-ol-S0f" secondAttribute="height" multiplier="1:1" id="S4u-d1-hhZ"/>
                                                         </constraints>
                                                         <state key="normal" image="icon-home-info1"/>
+                                                        <connections>
+                                                            <segue destination="fPQ-lg-Hqx" kind="push" id="QRh-39-ftu"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -9218,7 +9221,7 @@ help you today?</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="A5S-NL-YR5"/>
+        <segue reference="QRh-39-ftu"/>
         <segue reference="EIc-ou-HGJ"/>
         <segue reference="BJk-uq-bsa"/>
     </inferredMetricsTieBreakers>

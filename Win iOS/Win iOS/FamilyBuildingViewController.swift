@@ -114,6 +114,7 @@ class FamilyBuildingViewController: UIViewController, customViewDelegate {
     @IBAction func fertilityTrackerBtnClick(_ sender: Any) {
         if (UserDefaults.standard.bool(forKey: UserDefaultsStored.UserLogedInOrNot)){
             let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "FertilityTrackerViewController") as? FertilityTrackerViewController
+            vc?.isFromFamily = true
             self.navigationController?.pushViewController(vc!, animated: true)
         }else{
             showPopUp()
@@ -204,6 +205,7 @@ class FamilyBuildingViewController: UIViewController, customViewDelegate {
                 if (UserDefaults.standard.bool(forKey: UserDefaultsStored.UserLogedInOrNot)){
                     if(LoadLoginData.contractIdentified == "PWC"){
                         let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "NurseConnectViewController") as? NurseConnectViewController
+                        vc?.isFromFamily = true
                         self.navigationController?.pushViewController(vc!, animated: true)
                     }else{
                     let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "FertilityTrackerViewController") as? FertilityTrackerViewController

@@ -28,6 +28,7 @@ class NurseConnectViewController: UIViewController,UIPickerViewDelegate, UIPicke
     var customViews = CustomView()
     var pickerView = ToolbarPickerView()
     var joinVideoCall = Bool()
+    var isFromFamily = false
     override func viewDidLoad() {
         super.viewDidLoad()
         joinVideoCall = false
@@ -89,7 +90,7 @@ class NurseConnectViewController: UIViewController,UIPickerViewDelegate, UIPicke
        self.navigationController?.popToRootViewController(animated: true)
    }
     @IBAction func backBtnClick(_ sender: Any) {
-         if(LoadLoginData.contractIdentified == "PWC"){
+         if(LoadLoginData.contractIdentified == "PWC" && isFromFamily){
         self.navigationController?.backToViewController(viewController: PwcViewController.self)
          }else{
             self.navigationController?.popViewController(animated: true)

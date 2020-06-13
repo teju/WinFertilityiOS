@@ -41,7 +41,7 @@ class ParantalSupportViewController: UIViewController, customViewDelegate {
         }else if (item.tag == 2){
             if(presentIndex != "2"){
                 if (UserDefaults.standard.bool(forKey: UserDefaultsStored.UserLogedInOrNot)){
-                    let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "HomeViewController") as? HomeViewController
+                    let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "FamilyBuildingViewController") as? FamilyBuildingViewController
                     self.navigationController?.pushViewController(vc!, animated: true)
                 }else{
                     self.customViews.loadingData(titleLabl: "", subTitleLabel: AppConstants.AlertMessage.notRegistered.rawValue, cancelBtnTitle: "Cancel", okayBtnTitle: "Okay")

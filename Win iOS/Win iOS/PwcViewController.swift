@@ -75,7 +75,7 @@ class PwcViewController: UIViewController, customViewDelegate {
     }
     @IBAction func familybuildsupportBtnAction(_ sender: Any) {
         pwcvalidator = "familybuildsupport"
-        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "HomeViewController") as? HomeViewController
+        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "FamilyBuildingViewController") as? FamilyBuildingViewController
         self.navigationController?.pushViewController(vc!, animated: true)
     }
     @IBAction func parentalsupportbtnAction(_ sender: Any) {
