@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1296F59DE1B89482BE302B9B /* Pods_Win_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7712E3FA727D2E7005F15E59 /* Pods_Win_iOS.framework */; };
 		46BEB6EAEDBF0BF83625ACCC /* Pods_Win_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46789745DC4517B5F7B9B083 /* Pods_Win_iOSTests.framework */; };
+		79A31C122494ED2200E3127D /* FamilyBuildingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A31C112494ED2200E3127D /* FamilyBuildingViewController.swift */; };
 		D37A127036288455A1E5A6FC /* Pods_Win_iOS_Win_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB9CE4B292779D7A33E2EDB /* Pods_Win_iOS_Win_iOSUITests.framework */; };
 		DE25B7A623C4460B00E5919A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25B7A523C4460B00E5919A /* AppDelegate.swift */; };
 		DE25B7A823C4460B00E5919A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25B7A723C4460B00E5919A /* SceneDelegate.swift */; };
@@ -113,6 +114,7 @@
 		46789745DC4517B5F7B9B083 /* Pods_Win_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Win_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		570288CA5E6FA98E4239BA25 /* Pods-Win iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Win iOS.debug.xcconfig"; path = "Target Support Files/Pods-Win iOS/Pods-Win iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		7712E3FA727D2E7005F15E59 /* Pods_Win_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Win_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A31C112494ED2200E3127D /* FamilyBuildingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamilyBuildingViewController.swift; sourceTree = "<group>"; };
 		7AE9FE5881817331304A8A68 /* Pods-Win iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Win iOS.release.xcconfig"; path = "Target Support Files/Pods-Win iOS/Pods-Win iOS.release.xcconfig"; sourceTree = "<group>"; };
 		8A5D1DE4A42BB4F77A6BCF05 /* Pods-Win iOS-Win iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Win iOS-Win iOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-Win iOS-Win iOSUITests/Pods-Win iOS-Win iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8DC991851787AD6FCF5DF442 /* Pods-Win iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Win iOSTests.release.xcconfig"; path = "Target Support Files/Pods-Win iOSTests/Pods-Win iOSTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -294,6 +296,7 @@
 		DE25B7A423C4460B00E5919A /* Win iOS */ = {
 			isa = PBXGroup;
 			children = (
+				79A31C112494ED2200E3127D /* FamilyBuildingViewController.swift */,
 				DE7FDA1424039D8C00EA30C1 /* Win iOS.entitlements */,
 				DE25B7A523C4460B00E5919A /* AppDelegate.swift */,
 				DE25B7A723C4460B00E5919A /* SceneDelegate.swift */,
@@ -808,6 +811,7 @@
 				DE25B7A823C4460B00E5919A /* SceneDelegate.swift in Sources */,
 				DE7ED42A24730CF70035DBDD /* ParantalSupportViewController.swift in Sources */,
 				DEE76F3C23F27EED00D0DC85 /* VideoChatViewController.swift in Sources */,
+				79A31C122494ED2200E3127D /* FamilyBuildingViewController.swift in Sources */,
 				DE25B7D723C4468400E5919A /* NetworkHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
